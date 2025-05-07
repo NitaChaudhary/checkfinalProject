@@ -1,0 +1,140 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+        }
+
+        body {
+            background-color: #F2F2F7;
+        }
+
+        .container {
+            max-width: 600px;
+            overflow: hidden;
+            margin: 0 auto;
+            border-radius: 0.5rem;
+            background: linear-gradient(to right, rgba(158, 121, 218, .8), rgba(116, 170, 229, .8));
+        }
+
+        .logo {
+            /* background-color: #192C41; */
+            padding: 1rem;
+        }
+
+        .logo img {
+            width: auto;
+            height: 60px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .hero {
+            padding: 1rem 0;
+        }
+
+        .hero img {
+            height: 250px;
+            width: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .content {
+            padding: 0 1.5rem 2rem;
+            position: relative;
+        }
+
+        .content h6 {
+            font-weight: 600;
+            padding-bottom: 0.5rem;
+            font-size: 20px;
+        }
+
+        .content p {
+            font-weight: 400;
+            padding-bottom: 0.5rem;
+        }
+
+        .btn {
+            padding: 0.6rem 2rem;
+            background-color: #0F70E6;
+            color: white;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 1px solid #0F70E6;
+            margin: 20px 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .bg_logo {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .bg_logo img {
+            height: 380px;
+            width: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://api.doindenimz.com/media/weightimg/logo.png" alt="">
+        </div>
+        <div class="hero">
+            <img src="https://api.doindenimz.com/media/weightimg/welcome.png" alt="">
+        </div>
+
+        <div class="content">
+            <h6 style="font-size: 20px;">Welcome to HIRES,</h6>
+            <p style="padding-top: 0.5rem;">HIRES is an innovative recruiter platform designed to streamline your hiring process.
+                <br><br>
+                With HIRES, you can effortlessly create job posts and upload ZIP files containing candidate resumes.
+                Our advanced AI technology analyzes these resumes and provides a percentage score for each candidate,
+                helping you quickly identify the best fits for your job openings.
+            </p>
+            <div style="text-align: center;">
+                <a href="https://hires.ohminsights.ca/">
+                    <button class="btn">Get Started</button>
+                </a>
+            </div>
+            <p style="padding-top: 1rem;">Thank you for choosing HIRES!</p>
+            <div style="padding-top: 2rem;">
+                <div> Thanks, </div>
+                <div style="margin-top: 5px;"> Team Hires</div>
+            </div>
+
+            <div class="bg_logo">
+                <img src="https://api.doindenimz.com/media/weightimg/bg_logo.png" alt="">
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
